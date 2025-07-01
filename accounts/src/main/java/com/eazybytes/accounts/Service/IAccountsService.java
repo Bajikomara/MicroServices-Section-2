@@ -10,5 +10,6 @@ public interface IAccountsService {
 
     CustomerDto fetchAccountDetails(String mobileNumber);
 
+    boolean updateAccount(CustomerDto customerDto);
 
 }
